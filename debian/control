@@ -8,6 +8,8 @@ Build-Depends:
  automake,
  c-compiler | gcc,
  debhelper (>= 7),
+ glslang-dev,
+ glslang-tools,
  ladspa-sdk,
  libasound2-dev [linux-any],
  libarchive-dev,
@@ -70,13 +72,14 @@ Build-Depends:
  python2,
  python3,
  python-docutils | python3-docutils,
+ spirv-tools,
  x11proto-core-dev,
  yasm,
  zlib1g-dev
 
 Package: mpv
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, spirv-tools, glslang-tools
 Recommends:
  libgl1-mesa-dri,
  i965-va-driver | libva-intel-vaapi-driver | va-driver,
