@@ -40,6 +40,7 @@ Build-Depends:
  libopus-dev,
  libopencore-amrnb-dev,
  libopencore-amrwb-dev,
+ libplacebo-dev (>= 1.18.0),
  libpulse-dev,
  librtmp-dev,
  librubberband-dev,
