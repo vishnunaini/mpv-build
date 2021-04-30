@@ -129,6 +129,7 @@ Build-Depends:
  yasm,
  zlib1g-dev,
  frei0r-plugins-dev <!pkg.ffmpeg.stage1>,
+ wayland-protocols,
 
 Package: mpv
 Architecture: any
