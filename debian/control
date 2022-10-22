@@ -139,9 +139,8 @@ Build-Depends:
  libswscale-dev (>= 7:4.0),
  wayland-protocols,
  x11proto-core-dev,
- zlib1g-dev
  yasm,
- zlib1g-dev,
+ zlib1g-dev
 
 Package: mpv
 Architecture: any
