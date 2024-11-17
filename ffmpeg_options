@@ -19,3 +19,4 @@
 --enable-libdav1d
 --disable-doc
 --disable-programs
+--disable-nvenc
