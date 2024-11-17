@@ -14,7 +14,7 @@ Build-Depends:
 # libaom-dev, #alternate libdav1d
  libaribb24-dev,
  libasound2-dev [linux-any],
- libarchive-dev,
+ libarchive-dev (>= 3.4),
  libbluray-dev,
  libbs2b-dev,
  libbz2-dev,
@@ -51,6 +51,7 @@ Build-Depends:
  libmodplug-dev,
  libmp3lame-dev,
  libmysofa-dev,
+ libmujs-dev,
  libomxil-bellagio-dev,
  libopenal-dev,
  libopus-dev,
@@ -73,6 +74,7 @@ Build-Depends:
  libsctp-dev [linux-any],
  libsdl2-dev,
  libshine-dev (>= 3.0.0),
+ libsixel-dev,
  libsnappy-dev,
  libsrt-gnutls-dev,
  libssh-dev,
@@ -93,7 +95,7 @@ Build-Depends:
  libvulkan-dev,
  libwavpack-dev,
  libwebp-dev,
- libwayland-dev,
+ libwayland-dev (>= 1.15.0) [linux-any],
  libx264-dev,
  libx265-dev (>= 1.8),
  libx11-dev,
@@ -115,6 +117,7 @@ Build-Depends:
  nasm,
  ninja-build,
  libxvmc-dev,
+# libzimg-dev, #for debian & impish
  libzmq3-dev,
  libzvbi-dev,
  ocl-icd-opencl-dev | opencl-dev,
@@ -124,6 +127,8 @@ Build-Depends:
  python3-docutils,
  wayland-protocols,
  spirv-tools,
+# spirv-cross #for future debian
+# libspirv-cross-c-shared-dev #for future debian
  x11proto-core-dev,
  zlib1g-dev
  yasm,
