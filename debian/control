@@ -41,6 +41,7 @@ Build-Depends:
  libopencore-amrnb-dev,
  libopencore-amrwb-dev,
  libpipewire-0.3-dev,
+ libplacebo-dev (>= 1.18.0),
  libpulse-dev,
  librtmp-dev,
  librubberband-dev,
