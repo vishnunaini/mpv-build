@@ -134,6 +134,7 @@ Build-Depends:
  spirv-tools,
 # spirv-cross #for future debian
 # libspirv-cross-c-shared-dev #for future debian
+ python3-mako,
  spirv-cross,
  libspirv-cross-c-shared-dev,
  libswscale-dev (>= 7:4.0),
