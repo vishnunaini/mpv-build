@@ -18,4 +18,3 @@
 --enable-libvpl
 --disable-doc
 --disable-programs
---disable-nvenc
