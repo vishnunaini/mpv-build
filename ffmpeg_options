@@ -3,9 +3,7 @@
 --enable-libx265
 --enable-libmp3lame
 --enable-nvenc
---enable-libmfx
 --enable-openal
---enable-omx
 --enable-libopenjpeg
 --enable-libopenmpt
 --enable-libopus
