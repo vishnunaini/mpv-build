@@ -26,6 +26,7 @@ Build-Depends:
  libcaca-dev,
  libcdio-paranoia-dev,
  libdisplay-info-dev,
+ libdovi-dev,
  libchromaprint-dev <!pkg.ffmpeg.stage1>,
  libcodec2-dev,
  libdc1394-dev [linux-any],
@@ -78,6 +79,7 @@ Build-Depends:
  libsixel-dev,
  libsctp-dev [linux-any],
  libsdl2-dev,
+ libshaderc-dev,
  libshine-dev (>= 3.0.0),
  libsixel-dev,
  libsnappy-dev,
@@ -131,6 +133,7 @@ Build-Depends:
  pkg-kde-tools,
  python3,
  python3-docutils,
+ python3-jinja2,
  wayland-protocols,
  spirv-tools,
 # spirv-cross #for future debian
